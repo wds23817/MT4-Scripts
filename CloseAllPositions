@@ -21,8 +21,7 @@ int start()
             }             
          }
       }
-      // and close pending
-      //total = OrdersTotal();      
+      // and close pending     
       for (cnt = total-1; cnt >=0 ; cnt--)
       {
          if(OrderSelect(cnt,SELECT_BY_POS,MODE_TRADES)) 
